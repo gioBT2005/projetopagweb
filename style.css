@@ -1,0 +1,60 @@
+body {
+    background: rgb(183, 241, 95);
+    color: black;
+    margin: 0px;
+    font-family: "Nerko One", cursive;
+}
+
+header {
+    border-bottom: solid 2px black;
+    font-size: 30px;
+    padding: 20px;
+}
+
+.chamada{
+    display: flex;
+    background:(189,29,122);
+    padding-bottom:80px ;
+    padding-top: 80px;
+    justify-items: center;
+}
+
+.título-video{
+    margin-right: 5%;
+}
+img{
+    height: 100px;
+   
+}
+
+.fila-videos {
+    display: flex;
+    padding-left: 20px;
+    padding-right: 20px;
+    overflow-x: auto;
+    gap: 20px;
+}
+
+.fila-videos img {
+    height: 200px;
+
+}
+.fila-videos{
+    display: flex;
+    overflow-x: auto;
+    gap:20px;
+}
+.fila{
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.fila-videos img{
+    opacity: 0,5;
+    height: 200px;
+}
+.fila-videos img:hover{
+    opacity:1,0;
+}
+
+
+
